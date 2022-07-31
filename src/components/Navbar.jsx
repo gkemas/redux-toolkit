@@ -13,7 +13,7 @@ export default function Navbar() {
   const navigate = useNavigate();
   const { user } = useSelector((state) => state.auth);
   console.log(user);
-ff
+
   const handleLogout = () => {
     dispatch(clearUser());
     navigate('login');
