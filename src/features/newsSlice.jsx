@@ -16,6 +16,7 @@ const initialState = {
 
 const API_KEY = '02d142c50d8b4247b974b25323435174';
 
+
 export const getNews = createAsyncThunk(
   'news/getNews', //! action type ismi
 
